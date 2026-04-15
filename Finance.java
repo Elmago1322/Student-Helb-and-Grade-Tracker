@@ -3,7 +3,7 @@ public abstract class Finance{
     protected String date;
     abstract double applyPayment(double paymentAmount);
     public void displayDetails(){
-        System.out.println("Amount:Ksh. "+amount+ ".\nDate: "+date);
+        System.out.println("Amount: "+amount+ ".\nDate: "+date);
     }
    Finance(double amount,String date){
     this.amount=amount;
